@@ -19,25 +19,21 @@ header {
   align-items: center;
   height: 13vh;
   z-index: 3;
+  width: 100%;
 }
 .logoimg {
   float: left;
   padding: 60px;
 }
+nav{
+  width: 80%;
+}
 ul {
-  width: 100%;
+  width: 80%;
   list-style: none;
   float: right;
   display: flex;
   justify-content: space-evenly;
-}
-nav {
-  margin-left: 580px;
-}
-.nav1,
-.nav2,
-.nav3 {
-  padding-right: 70px;
 }
 
 .mainimg {
