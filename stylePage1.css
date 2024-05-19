@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;1,300&display=swap");
+body {
+  margin: 0;
+}
+p {
+  font-family: "Source Code Pro", monospace;
+  font-size: 15px;
+  font-weight: 600;
+}
+title {
+  border: none;
+  background: #33353a;
+}
+header {
+  position: fixed;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13vh;
+  z-index: 3;
+}
+.logoimg {
+  float: left;
+  padding: 60px;
+}
+ul {
+  width: 100%;
+  list-style: none;
+  float: right;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav {
+  margin-left: 580px;
+}
+.nav1,
+.nav2,
+.nav3 {
+  padding-right: 70px;
+}
+
+main{
+    margin: 0 170px;
+    padding-top: 100px;
+    text-align: center;
+}
+.productGroup1{
+    display: flex;
+    justify-content: space-between;
+}
+.productGroup2{
+    display: flex;
+    justify-content: space-between;
+}
+.product1,
+.product2,
+.product3,
+.product4,
+.product5,
+.product6
+{
+    width: 300px;
+    margin-bottom: 20px;
+}
+.imgProduct{
+    width: 300px;
+}
+.cost{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main-content{
+  display:flex; 
+  background:white; 
+  align-items:center; 
+  justify-content:center; 
+  text-align:center;
+}
+#heart-svg{
+  cursor:pointer; 
+  overflow:visible; 
+  width:40px;
+  #heart{transform-origin:center; animation:animateHeartOut .3s linear forwards;}
+  #main-circ{transform-origin:29.5px 29.5px;}
+}
+#checkbox{
+  display:none;
+}
+#checkbox:checked + #heart-label #heart-svg{
+    #heart{transform:scale(.2); fill:#E2264D; animation:animateHeart .3s linear forwards .25s;}
+    #main-circ{transition:all 2s; animation:animateCircle .3s linear forwards; opacity:1;}
+}
+
+@keyframes animateCircle{
+  40%{transform:scale(10); opacity:1; fill:#DD4688;}
+  55%{transform:scale(11); opacity:1; fill:#D46ABF;}
+  65%{transform:scale(12); opacity:1; fill:#CC8EF5;}
+  75%{transform:scale(13); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:.5;}
+  85%{transform:scale(17); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:.2;}
+  95%{transform:scale(18); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:.1;}
+  100%{transform:scale(19); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:0;}
+}
+
+@keyframes animateHeart{
+  0%{transform:scale(.2);}
+  40%{transform:scale(1.2);}
+  100%{transform:scale(1);}
+}
+
+@keyframes animateHeartOut{
+  0%{transform:scale(1.4);}
+  100%{transform:scale(1);}
+}
+
+#heart-svg1{
+  cursor:pointer; 
+  overflow:visible; 
+  width:40px;
+  #heart1{transform-origin:center; animation:animateHeartOut1 .3s linear forwards;}
+  #main-circ1{transform-origin:29.5px 29.5px;}
+}
+#checkbox1{
+  display:none;
+}
+#checkbox1:checked + #heart-label1 #heart-svg1{
+    #heart1{transform:scale(.2); fill:#E2264D; animation:animateHeart1 .3s linear forwards .25s;}
+    #main-circ1{transition:all 2s; animation:animateCircle1 .3s linear forwards; opacity:1;}
+}
+
+@keyframes animateCircle1{
+  40%{transform:scale(10); opacity:1; fill:#DD4688;}
+  55%{transform:scale(11); opacity:1; fill:#D46ABF;}
+  65%{transform:scale(12); opacity:1; fill:#CC8EF5;}
+  75%{transform:scale(13); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:.5;}
+  85%{transform:scale(17); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:.2;}
+  95%{transform:scale(18); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:.1;}
+  100%{transform:scale(19); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:0;}
+}
+
+@keyframes animateHeart1{
+  0%{transform:scale(.2);}
+  40%{transform:scale(1.2);}
+  100%{transform:scale(1);}
+}
+
+@keyframes animateHeartOut1{
+  0%{transform:scale(1.4);}
+  100%{transform:scale(1);}
+}
+#heart-svg2{
+  cursor:pointer; 
+  overflow:visible; 
+  width:40px;
+  #heart2{transform-origin:center; animation:animateHeartOut2 .3s linear forwards;}
+  #main-circ2{transform-origin:29.5px 29.5px;}
+}
+#checkbox2{
+  display:none;
+}
+#checkbox2:checked + #heart-label2 #heart-svg2{
+    #heart2{transform:scale(.2); fill:#E2264D; animation:animateHeart2 .3s linear forwards .25s;}
+    #main-circ2{transition:all 2s; animation:animateCircle2 .3s linear forwards; opacity:1;}
+}
+
+@keyframes animateCircle2{
+  40%{transform:scale(10); opacity:1; fill:#DD4688;}
+  55%{transform:scale(11); opacity:1; fill:#D46ABF;}
+  65%{transform:scale(12); opacity:1; fill:#CC8EF5;}
+  75%{transform:scale(13); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:.5;}
+  85%{transform:scale(17); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:.2;}
+  95%{transform:scale(18); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:.1;}
+  100%{transform:scale(19); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:0;}
+}
+
+@keyframes animateHeart2{
+  0%{transform:scale(.2);}
+  40%{transform:scale(1.2);}
+  100%{transform:scale(1);}
+}
+
+@keyframes animateHeartOut2{
+  0%{transform:scale(1.4);}
+  100%{transform:scale(1);}
+}
+#heart-svg3{
+  cursor:pointer; 
+  overflow:visible; 
+  width:40px;
+  #heart3{transform-origin:center; animation:animateHeartOut3 .3s linear forwards;}
+  #main-circ3{transform-origin:29.5px 29.5px;}
+}
+#checkbox3{
+  display:none;
+}
+#checkbox3:checked + #heart-label3 #heart-svg3{
+    #heart3{transform:scale(.2); fill:#E2264D; animation:animateHeart3 .3s linear forwards .25s;}
+    #main-circ3{transition:all 2s; animation:animateCircle3 .3s linear forwards; opacity:1;}
+}
+
+@keyframes animateCircle3{
+  40%{transform:scale(10); opacity:1; fill:#DD4688;}
+  55%{transform:scale(11); opacity:1; fill:#D46ABF;}
+  65%{transform:scale(12); opacity:1; fill:#CC8EF5;}
+  75%{transform:scale(13); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:.5;}
+  85%{transform:scale(17); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:.2;}
+  95%{transform:scale(18); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:.1;}
+  100%{transform:scale(19); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:0;}
+}
+
+@keyframes animateHeart3{
+  0%{transform:scale(.2);}
+  40%{transform:scale(1.2);}
+  100%{transform:scale(1);}
+}
+
+@keyframes animateHeartOut3{
+  0%{transform:scale(1.4);}
+  100%{transform:scale(1);}
+}
+#heart-svg4{
+  cursor:pointer; 
+  overflow:visible; 
+  width:40px;
+  #heart4{transform-origin:center; animation:animateHeartOut4 .3s linear forwards;}
+  #main-circ4{transform-origin:29.5px 29.5px;}
+}
+#checkbox4{
+  display:none;
+}
+#checkbox4:checked + #heart-label4 #heart-svg4{
+    #heart4{transform:scale(.2); fill:#E2264D; animation:animateHeart4 .3s linear forwards .25s;}
+    #main-circ4{transition:all 2s; animation:animateCircle4 .3s linear forwards; opacity:1;}
+}
+
+@keyframes animateCircle4{
+  40%{transform:scale(10); opacity:1; fill:#DD4688;}
+  55%{transform:scale(11); opacity:1; fill:#D46ABF;}
+  65%{transform:scale(12); opacity:1; fill:#CC8EF5;}
+  75%{transform:scale(13); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:.5;}
+  85%{transform:scale(17); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:.2;}
+  95%{transform:scale(18); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:.1;}
+  100%{transform:scale(19); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:0;}
+}
+
+@keyframes animateHeart4{
+  0%{transform:scale(.2);}
+  40%{transform:scale(1.2);}
+  100%{transform:scale(1);}
+}
+
+@keyframes animateHeartOut4{
+  0%{transform:scale(1.4);}
+  100%{transform:scale(1);}
+}
+#heart-svg5{
+  cursor:pointer; 
+  overflow:visible; 
+  width:40px;
+  #heart5{transform-origin:center; animation:animateHeartOut5 .3s linear forwards;}
+  #main-circ5{transform-origin:29.5px 29.5px;}
+}
+#checkbox5{
+  display:none;
+}
+#checkbox5:checked + #heart-label5 #heart-svg5{
+    #heart5{transform:scale(.2); fill:#E2264D; animation:animateHeart5 .3s linear forwards .25s;}
+    #main-circ5{transition:all 2s; animation:animateCircle5 .3s linear forwards; opacity:1;}
+}
+
+@keyframes animateCircle5{
+  40%{transform:scale(10); opacity:1; fill:#DD4688;}
+  55%{transform:scale(11); opacity:1; fill:#D46ABF;}
+  65%{transform:scale(12); opacity:1; fill:#CC8EF5;}
+  75%{transform:scale(13); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:.5;}
+  85%{transform:scale(17); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:.2;}
+  95%{transform:scale(18); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:.1;}
+  100%{transform:scale(19); opacity:1; fill:transparent; stroke:#CC8EF5; stroke-width:0;}
+}
+
+@keyframes animateHeart5{
+  0%{transform:scale(.2);}
+  40%{transform:scale(1.2);}
+  100%{transform:scale(1);}
+}
+
+@keyframes animateHeartOut5{
+  0%{transform:scale(1.4);}
+  100%{transform:scale(1);}
+}
+
+footer {
+  background: #221f1f;
+  color: white;
+  position: relative;
+  top: 110px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 10px;
+  height: 15vh;
+}
+.vk {
+    margin: 10px;
+}
+h3 {
+    font-family: "Source Code Pro", monospace;
+    margin-left: 40px;
+}

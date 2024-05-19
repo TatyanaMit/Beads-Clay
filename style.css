@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;1,300&display=swap");
+body {
+  margin: 0;
+}
+p {
+  font-family: "Source Code Pro", monospace;
+  font-size: 15px;
+  font-weight: 600;
+}
+title {
+  border: none;
+  background: #33353a;
+}
+header {
+  position: fixed;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13vh;
+  z-index: 3;
+}
+.logoimg {
+  float: left;
+  padding: 60px;
+}
+ul {
+  width: 100%;
+  list-style: none;
+  float: right;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav {
+  margin-left: 580px;
+}
+.nav1,
+.nav2,
+.nav3 {
+  padding-right: 70px;
+}
+
+.mainimg {
+  margin-top: 70px;
+  align-items: center;
+}
+main {
+  background-image: url(images/fon1.jpg);
+  background-size: cover;
+  color: white;
+  height: 100vh;
+}
+.blockMain{
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+.mainPImg{
+  text-align: center;
+}
+.pmain {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 800;
+  width: 100%;
+  text-align: center;
+}
+.blockBeads{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content:space-around;
+}
+.bead1{
+  width: 50px;
+  transition: transform 0.5s;
+}
+.bead1:hover{
+  transform: scale(1.1);
+}
+.bead2{
+  width: 50px;
+  transition: transform 0.5s;
+}
+.bead2:hover{
+  transform: scale(1.1);
+}
+.bead3 {
+  width: 50px;
+  transition: transform 0.5s;
+}
+.bead3:hover{
+  transform: scale(1.1);
+}
+.blockArrow{
+  display: flex;
+  justify-content:space-between;
+  width: 80%;
+  margin: auto;
+} 
+.arrow1 {
+  width: 60px;
+  height: 40px;
+  padding-left: 20px;
+}
+.arrow2 {
+  width: 60px;
+}
+.arrow3 {
+  width: 60px;
+}
+
+h1 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 2000;
+  font-size: 40px;
+}
+.offers {
+  font-size: 18px;
+  margin: 80px 170px;
+  color: rgb(0, 0, 0);
+}
+.blockOffers1{
+  display: flex;
+  justify-content: space-between;
+}
+.blocktext1 {
+  margin-bottom: 60px;
+  width: 300px;
+}
+.ph1Offers,
+.ph2Offers,
+.ph3Offers,
+.ph4Offers{
+  width: 300px;
+}
+.blockOffers2{
+  display: flex;
+  justify-content: space-between;
+}
+.blocktext2 {
+  width: 300px;
+}
+
+.basket h1{
+  margin-left: 170px;
+  margin-bottom: 50px;
+}
+.basket{
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  background-image: url(images/fonslider.jpg);
+  background-size: cover;
+  height: 85vh;
+  padding-top: 30px;
+}
+.basketSlider{
+  margin: 0 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sliderBlock{
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.slider img{
+  width: 300px;
+}
+.btntuda img{
+  width: 100px;
+  opacity: 0.3;
+  transition: transform 0.5s;
+}
+.btntuda img:hover{
+  transform: scale(1.05);
+}
+.btnsuda img{
+  width: 100px;
+  opacity: 0.3;
+  transition: transform 0.5s;
+}
+.btnsuda img:hover{
+  transform: scale(1.05);
+}
+.slider{
+  position: relative;
+  display: flex;
+  transition: all 2s ease 0s;
+}
+button{
+  width: 300px;
+  height: 80px;
+  padding: 20px 60px;
+  margin-left: 40px;
+  outline: none;
+  border: none;
+	background-color: rgb(155, 125, 114);
+  cursor: pointer;
+  color: rgb(230, 216, 212);
+  font-family: "Source Code Pro", monospace;
+  font-size: 17px;
+  font-weight: 600;
+  transition: transform 0.5s;
+}
+
+button:hover{
+  transform: scale(1.05);
+  border: 2px solid rgb(177, 144, 132);
+  background-color: rgb(207, 188, 181);
+  color:black;
+}
+
+footer {
+  background: #221f1f;
+  color: white;
+  position: relative;
+  top: 110px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 10px;
+  height: 15vh;
+}
+.vk {
+  margin: 10px;
+}
+h3 {
+  font-family: "Source Code Pro", monospace;
+  margin-left: 40px;
+}

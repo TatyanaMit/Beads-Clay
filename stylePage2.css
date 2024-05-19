@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;1,300&display=swap");
+body {
+  margin: 0;
+  background-image: url(images/fon8.jpg);
+  background-repeat: no-repeat;
+  background-size: 120%;
+}
+p {
+  font-family: "Source Code Pro", monospace;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(240, 221, 210);
+}
+title {
+  border: none;
+  background: #33353a;
+}
+header {
+  position: fixed;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13vh;
+  z-index: 3;
+}
+.logoimg {
+  float: left;
+  padding: 60px;
+}
+ul {
+  width: 100%;
+  list-style: none;
+  float: right;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav {
+  margin-left: 580px;
+}
+.nav1,
+.nav2,
+.nav3 {
+  padding-right: 70px;
+}
+
+main{
+  margin: 0 170px;
+  text-align: center;
+  height: 100vh;
+}
+.record{
+  width: 400px;
+  height: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  background-color: rgb(22, 22, 22, 0.5);
+  margin-top: 50px;
+}
+input{
+  width: 200px;
+}
+.recordText{
+  margin: 70px auto;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  width: 200px;
+  height: 50px;
+  margin-top: 40px;
+  outline: none;
+  border: none;
+  background-color: rgb(155, 125, 114);
+  cursor: pointer;
+  color: rgb(230, 216, 212);
+  font-family: "Source Code Pro", monospace;
+  font-size: 15px;
+  font-weight: 600;
+  transition: transform 0.5s;
+}
+  
+button:hover{
+  transform: scale(1.05);
+  border: 2px solid rgb(177, 144, 132);
+  background-color: rgb(207, 188, 181);
+  color:black;
+}
+footer {
+  background: #221f1f;
+  color: white;
+  position: relative;
+  top: 110px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 10px;
+  height: 15vh;
+}
+.vk {
+  margin: 10px;
+}
+h3 {
+  font-family: "Source Code Pro", monospace;
+  margin-left: 40px;
+}
